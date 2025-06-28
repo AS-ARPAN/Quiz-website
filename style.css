@@ -6,8 +6,11 @@ html, body {
 body.fantasy-bg {
   margin: 0;
   padding: 0;
-  background: url('https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?semt=ais_hybrid&w=740') no-repeat center center fixed;
+  background-image: url('https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?semt=ais_hybrid&w=740');
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed; /* ✅ Keeps background from moving */
   font-family: 'Cinzel Decorative', cursive;
   color: #f4eaff;
   display: flex;
@@ -17,6 +20,7 @@ body.fantasy-bg {
   padding: 20px;
   flex-direction: column;
 }
+
 
 
 
@@ -148,7 +152,7 @@ body.fantasy-bg {
   align-items: center;
   justify-content: flex-end;
   flex-wrap: nowrap;
-  margin-right: 80px;
+  margin-right: 40px;
 }
 
 .nav-links a {
