@@ -12,7 +12,7 @@ html, body {
 
 
 body.fantasy-bg {
-  background: linear-gradient(-45deg, #1f005c, #5b247a, #1f005c, #5b247a);
+  background: linear-gradient(-45deg, #1f005c, #5b247a, #1f005c, #5e2480);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
   color: #f4eaff;
