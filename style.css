@@ -1,7 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
+
 
 body.fantasy-bg {
   margin: 0;
@@ -10,19 +18,10 @@ body.fantasy-bg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed; /* ✅ Keeps background from moving */
+  background-attachment: fixed; 
   font-family: 'Cinzel Decorative', cursive;
   color: #f4eaff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
-  flex-direction: column;
 }
-
-
-
 
 .instructions-container, .quiz-box {
   background: rgba(255, 255, 255, 0.05);
