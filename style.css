@@ -167,38 +167,51 @@ body.fantasy-bg {
 @media (max-width: 600px) {
   body.fantasy-bg {
     padding: 10px;
+    flex-direction: column;
     align-items: stretch;
-  }
-
-  .instructions-container,
-  .quiz-box,
-  .info-section {
-    max-width: 100%;
-    padding: 1rem;
-    font-size: 0.95rem;
+    background-size: cover;
   }
 
   .main-header {
     flex-direction: column;
     height: auto;
     padding: 10px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    margin: 10px 0;
-  }
-
-  .nav-links a {
-    margin: 5px 0;
+    align-items: flex-start;
   }
 
   .site-name {
     margin: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0 0 0;
+  }
+
+  .nav-links a {
+    margin: 5px 0;
+    font-size: 0.95rem;
+  }
+
+  .instructions-container,
+  .quiz-box,
+  .info-section {
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 0.95rem;
   }
 
   #options button {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+
+  .navigation button {
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
   }
 }
-
