@@ -167,3 +167,42 @@ body.fantasy-bg {
 .info-section {
   margin-top: 80px;
 }
+
+@media (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body.fantasy-bg {
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main-header {
+    padding: 0 15px;
+  }
+
+  .instructions-container,
+  .quiz-box,
+  .info-section {
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  #options button {
+    font-size: 1rem;
+  }
+
+  .navigation button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+}
+
