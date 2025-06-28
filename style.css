@@ -27,11 +27,13 @@ body.fantasy-bg {
   padding: 2rem;
   border-radius: 15px;
   max-width: 600px;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto; 
   text-align: center;
   backdrop-filter: blur(10px);
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
 }
+
 .instructions-container {
   font-family: 'Orbitron', sans-serif;
 }
@@ -105,16 +107,17 @@ body.fantasy-bg {
 }
 
 .info-section {
-  margin-top: 40px;
+  margin: 40px auto 0 auto; /* ✅ centers horizontally */
   background: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 12px;
   max-width: 700px;
-  width: 100%;
+  width: 90%;
   color: #fff;
   font-family: 'Cinzel Decorative', cursive;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 .info-section a {
   color: #00c3ff;
   text-decoration: none;
