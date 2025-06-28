@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess the Game - Instructions</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script>
+    function startQuiz() {
+      window.location.href = "quiz.html";
+    }
+  </script>
+</head>
+<body class="fantasy-bg">
+  <header class="main-header">
+    <div class="site-name">🎮 GameQuest</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="instructions-container">
+    <h1>🎮 Welcome to Guess the Game!</h1>
+    <div class="instructions">
+      <h2>Instructions:</h2>
+      <ul>
+        <li>There are <strong>20 multiple-choice questions</strong>.</li>
+        <li>Each correct answer awards <strong>+4 marks</strong>.</li>
+        <li>Each wrong answer deducts <strong>1 mark</strong>.</li>
+        <li>Unanswered questions will get <strong>0 marks</strong>.</li>
+        <li>Once submitted, answers cannot be changed.</li>
+      </ul>
+    </div>
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <div id="about" class="info-section">
+    <h2>About Us</h2>
+    <p>Welcome to GameQuest – the ultimate quiz for gamers!</p>
+    <p>We bring you fun, challenging questions about your favorite games.</p>
+  </div>
+
+  <div id="contact" class="info-section">
+    <h2>Contact Us</h2>
+    <p>
+      <a href="https://www.linkedin.com/in/arpan-sourav-b07730343" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a><br>
+      <a href="https://www.instagram.com/arpan_sourav" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a><br>
+      <a href="mailto:arpansourav1917@gmail.com">
+        <i class="fas fa-envelope"></i> Email Us
+      </a>
+    </p>
+  </div>
+</body>
+</html>

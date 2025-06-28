@@ -1,0 +1,166 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body.fantasy-bg {
+  margin: 0;
+  padding: 0;
+  background: url('https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?semt=ais_hybrid&w=740') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #f4eaff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  flex-direction: column;
+}
+
+
+
+.instructions-container, .quiz-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+.quiz-title {
+  font-size: 2rem;
+  text-shadow: 0 0 10px #bb86fc, 0 0 20px #6200ee;
+  margin-bottom: 1rem;
+}
+
+#options button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#options button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.03);
+  border-color: #bb86fc;
+}
+
+.navigation button {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem 1.2rem;
+  background: linear-gradient(135deg, #bb86fc, #6200ee);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.navigation button:hover {
+  transform: scale(1.05);
+}
+
+.instructions-container button {
+  background: linear-gradient(135deg, #00c3ff, #6f00ff);
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Cinzel Decorative', cursive;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00c3ff, 0 0 20px #6f00ff;
+  margin-top: 20px;
+}
+
+.instructions-container button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #6f00ff, 0 0 25px #00c3ff;
+  background: linear-gradient(135deg, #6f00ff, #00c3ff);
+}
+
+.hidden {
+  display: none;
+}
+
+.info-section {
+  margin-top: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 100%;
+  color: #fff;
+  font-family: 'Cinzel Decorative', cursive;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.info-section a {
+  color: #00c3ff;
+  text-decoration: none;
+}
+.info-section a:hover {
+  text-decoration: underline;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.site-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-shadow: 0 0 5px #00c3ff;
+  margin-left: 5px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  margin-right: 40px;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00c3ff;
+}
+
+.instructions-container,
+.info-section {
+  margin-top: 80px;
+}
