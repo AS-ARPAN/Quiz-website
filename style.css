@@ -185,6 +185,25 @@ body.fantasy-bg {
 
   .main-header {
     padding: 0 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap: 10px;
+  }
+
+  .site-name {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+    margin-left: 10px;
   }
 
   .instructions-container,
@@ -192,8 +211,18 @@ body.fantasy-bg {
   .info-section {
     max-width: 100%;
     width: 100%;
-    padding: 1rem;
+    padding: 1.2rem;
     box-sizing: border-box;
+    margin: 80px auto 0 auto;
+  }
+
+  .quiz-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
   }
 
   #options button {
@@ -205,14 +234,38 @@ body.fantasy-bg {
     font-size: 1rem;
   }
 
-  .nav-links a {
-    font-size: 0.9rem;
+  #result {
+    width: 100%;
+    margin-top: 30px;
   }
 }
+
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+.quiz-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px auto; 
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  min-height: 60vh; 
+}
+
+#result {
+  margin-top: 30px;
+  width: 100%;
+}
+
 
 
