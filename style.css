@@ -190,19 +190,24 @@ body.fantasy-bg {
 
   .main-header {
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: 60px;
-    padding: 0 15px;
+    padding: 0 20px;
+  }
+
+  .site-name {
+    margin-left: 0;
+    font-size: 1.2rem;
   }
 
   .nav-links {
     flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    margin: 0;
+    margin-right: 0;
   }
 
   .nav-links a {
-    margin: 0 10px;
+    margin-left: 15px;
     font-size: 0.9rem;
   }
 }
